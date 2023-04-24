@@ -28,7 +28,7 @@ public class ReservationService {
     public Reservation updateReservation(Reservation reservation) {
         Optional<Reservation> reservationUpdate = getFindById(reservation.getIdReservation());
         if (reservationUpdate.isPresent()) {
-            reservationUpdate.get().setStarDate(reservation.getStarDate());
+            reservationUpdate.get().setStartDate(reservation.getStartDate());
             reservationUpdate.get().setDevolutionDate(reservation.getDevolutionDate());
             reservationUpdate.get().setStatus(reservation.getStatus());
             reservationUpdate.get().setCar(reservation.getCar());

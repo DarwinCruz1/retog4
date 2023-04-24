@@ -40,7 +40,7 @@ public class GamaService {
             return repository.save(gamaUpdate.get());
         }
         else {
-            return  gama;
+            return gama;
         }
     }
     public void deleteGama(long id){
