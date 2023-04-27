@@ -2,10 +2,7 @@ package com.usergio.retos.retoapp.modelo.entidad;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 
 import java.io.Serializable;
 import java.util.List;
@@ -15,6 +12,7 @@ import java.util.List;
 @ToString
 @Data
 @Entity
+@Builder
 @Table(name="gama")
 public class Gama implements Serializable {
     //primary key idGama
