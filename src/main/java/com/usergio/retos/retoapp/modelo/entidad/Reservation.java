@@ -20,7 +20,7 @@ public class Reservation implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idReservation;
-    //correccion atributo date
+    //correccion de atributo date
     private Date startDate;
     private Date devolutionDate;
     private String status = "created";
