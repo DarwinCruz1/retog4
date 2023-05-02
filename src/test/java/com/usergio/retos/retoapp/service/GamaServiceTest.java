@@ -28,7 +28,7 @@ class GamaServiceTest {
         assertEquals(gama, gamaService.save(gama));
 
     }
-   /* @Test
+  /*  @Test
     void getAll() {
         Gama gama =  Gama.builder()
                 .idGama(1L)
@@ -38,7 +38,8 @@ class GamaServiceTest {
         List<Gama> gamasexpect = new ArrayList<Gama>();
         gamasexpect.add(gama);
         List<Gama> gamaAll = gamaService.getAll();
-        assertEquals(gamasexpect,gamaAll);     }
+        assertEquals(gamasexpect,gamaAll);
+    }
 
     }
 */
